@@ -1,0 +1,47 @@
+{
+	"name": "rem-theme",
+	"displayName": "Rem Theme",
+	"description": "An edited version of the VSCode Doki-Theme \"Rem\"",
+	"publisher": "Animenosekai",
+	"version": "1.0.0",
+	"license": "MIT",
+	"icon": "Doki-Theme.png",
+	"galleryBanner": {
+		"color": "#578CDA",
+		"theme": "dark"
+	},
+	"bugs": {
+		"url": "https://github.com/Animenosekai/Rem-Theme/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Animenosekai/Rem-Theme.git"
+	},
+	"engines": {
+		"vscode": "^1.51.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Anime",
+		"Otaku",
+        "ReZero",
+        "Re:Zero",
+        "Rem"
+	],
+	"contributes": {
+        "themes": [
+            {
+				"label": "Rem Theme",
+				"path": "./rem-theme.theme.json",
+				"uiTheme": "vs-dark"
+			}
+        ]
+	},
+	"__metadata": {
+		"id": "dontknowwhatthisis",
+		"publisherId": "donthaveonefornow",
+		"publisherDisplayName": "Animenosekai"
+	}
+}
